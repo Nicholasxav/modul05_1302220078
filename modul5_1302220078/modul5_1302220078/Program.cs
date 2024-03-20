@@ -22,5 +22,20 @@ internal class program
 
 public class SimpleDataBase<T>
 {
+    private T data;
+    public SimpelDataBase()
+    {
+        public void StoreData (T data)
+        {
+            this.data = data;   
+        }
+    }
+    public void inputDate<Date> (Date date)
+    {
 
+    }
+    public void AddNewDate(T data)
+    {
+        this.data = data;
+    }
 }
